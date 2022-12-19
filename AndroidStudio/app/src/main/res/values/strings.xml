@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Drishti</string>
+    <string name="touch_to_continue"><![CDATA[Touch to continue >>>]]></string>
+    <string name="sight_for_those_who_need_it">Sight for those who need it</string>
+    <string name="drishti">Drishti</string>
+    <string name="button">Button</string>
+    <string name="speak">Speak</string>
+    <string name="homepage_hero_image">homepage_hero_image</string>
+    <string name="sightcomma_for_those_who_need_it">Sight, for those who need it</string>
+</resources>
