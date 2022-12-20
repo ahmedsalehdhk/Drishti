@@ -14,18 +14,26 @@ public class ModeSelection1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mode_selection1);
 
-//        Button buttonToCamera = (Button)findViewById(R.id.buttonToCamera);
-//        buttonToCamera.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                try {
-//                    Intent openCamera = new Intent();
-//                    openCamera.setAction(MediaStore.ACTION_IMAGE_CAPTURE);
-//                    startActivity(openCamera);
-//                }catch (Exception e){
-//                    e.printStackTrace();
-//                }
-//            }
-//        });
+        //moving to ModeSelection2a
+        Button object_currency_btn = (Button)findViewById(R.id.object_currency_btn);
+        object_currency_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent myintent1 = new Intent(ModeSelection1.this, ModeSelection2a.class);
+                startActivity(myintent1);
+            }
+        });
+
+        //moving to ModeSelection2b
+        Button medicine_text_btn = (Button)findViewById(R.id.medicine_text_btn);
+        medicine_text_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent myintent2 = new Intent(ModeSelection1.this, ModeSelection2b.class);
+                startActivity(myintent2);
+            }
+        });
+
+
     }
 }
