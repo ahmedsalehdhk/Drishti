@@ -49,7 +49,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/homeSpeakButton4"
+        android:id="@+id/help"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/bottonleftround"
@@ -102,8 +102,9 @@
 
     <ImageView
         android:id="@+id/imageView1"
-        android:layout_width="299dp"
-        android:layout_height="326dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textureView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView11"
@@ -115,7 +116,7 @@
         android:layout_height="24dp"
         android:layout_marginTop="16dp"
         android:text="TextView"
-        app:layout_constraintEnd_toStartOf="@+id/homeSpeakButton4"
+        app:layout_constraintEnd_toStartOf="@+id/help"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toEndOf="@+id/camera_module_back_btn"
         app:layout_constraintTop_toTopOf="parent" />
